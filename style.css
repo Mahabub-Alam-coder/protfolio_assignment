@@ -1,0 +1,104 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+}
+h1{
+    font-size: 75px;
+    color: orange;
+    position: relative;
+    bottom: 20px;
+}
+
+#fix{
+    position: relative;
+    top: 20px;
+}
+#up{
+    
+    position: relative;
+    bottom: 15px;
+    font-size: 25px;
+}
+#down{
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+}
+#position{
+    position: relative;
+    top: 70px;
+}
+.half-intro img{
+    width: 100%;
+}
+.half-intro{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+}
+.header{
+    background-image: url(../ASSIGNMENT-1/images/header-bg.png);
+    background-size: 100%;
+    overflow: hidden;
+}
+.bio{
+    background-image: url(../ASSIGNMENT-1/images/biography-bg.png);
+    overflow: hidden;
+}
+.pic{
+    width: 30%;
+    float: left;
+    margin-left: 2.5%;
+    
+}
+.work{
+    text-align: center;
+    background-image: url(../ASSIGNMENT-1/images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+.pic img{
+    width: 90%;
+    position: relative;
+    top: 80px;
+}
+.clint{
+    text-align: center;
+    background-image: url(../ASSIGNMENT-1/images/footer-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 600px;
+    
+
+}
+
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+.contact{
+    border: 1px solid tomato;
+    border-radius: 5px;
+    margin: 50px 380px;
+    background-color: tomato;
+    position: relative;
+    top: 80px;
+    color: white;
+}
+footer{
+    text-align: center;
+    
+}
